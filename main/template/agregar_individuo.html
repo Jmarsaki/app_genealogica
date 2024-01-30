@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Agregar Individuo</title>
+</head>
+<body>
+    <h1>Agregar un nuevo individuo</h1>
+    <form action="/agregar_individuo" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="madre_id">ID de la Madre (opcional):</label>
+        <input type="number" id="madre_id" name="madre_id">
+        <br>
+        <label for="padre_id">ID del Padre (opcional):</label>
+        <input type="number" id="padre_id" name="padre_id">
+        <br>
+        <button type="submit">Agregar Individuo</button>
+    </form>
+</body>
+</html>
